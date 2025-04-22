@@ -3,3 +3,9 @@ body {
     color: #2C2A29;
     margin: 0;
 }
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
