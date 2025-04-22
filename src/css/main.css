@@ -1,0 +1,10 @@
+@import 'base/_reset.css';
+@import 'base/_typography.css';
+@import 'base/_base.css';
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
