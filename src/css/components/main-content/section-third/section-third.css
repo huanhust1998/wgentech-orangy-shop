@@ -1,5 +1,5 @@
 .section-third {
-    width: 100%;
+    width: 1267px;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -7,7 +7,7 @@
 }
 
 .section-third__note {
-    width: 100%;
+    width: 524px;
 }
 
 .section-third__note p {
@@ -18,4 +18,15 @@
 .section-third__description {
     font-size: 28px;
     line-height: 44px;
+}
+
+@media (max-width: 1024px) {
+    .section-third {
+        width: 100%;
+    }
+
+    .section-third__note {
+        width: 524px;
+    }
+    
 }

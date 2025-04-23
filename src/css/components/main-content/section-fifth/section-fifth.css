@@ -76,7 +76,7 @@
     line-height: 22px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .section-fifth {
         width: 100%;
         height: 722px;
