@@ -1,6 +1,6 @@
-@import 'base/_reset.css';
-@import 'base/_typography.css';
-@import 'base/_base.css';
+@import './base/_reset.css';
+@import './base/_typography.css';
+@import './base/_base.css';
 
 .container {
     width: 100%;
