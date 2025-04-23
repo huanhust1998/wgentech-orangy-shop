@@ -1,0 +1,21 @@
+.section-third {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 0px 5px;
+}
+
+.section-third__note {
+    width: 100%;
+}
+
+.section-third__note p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.section-third__description {
+    font-size: 28px;
+    line-height: 44px;
+}
