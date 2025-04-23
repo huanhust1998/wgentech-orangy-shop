@@ -1,0 +1,152 @@
+/* Header */
+
+.header {
+    width: 100%;
+    height: 883px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header__banner {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 883px;
+    position: absolute;
+}
+
+.header__banner--background {
+    background-image: url('/public/images/desktop/banner.jpg');
+}
+
+.nav {
+    width: 1376px;
+    height: 86px;
+    margin-top: 16px;
+    padding-top: 14px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.nav__sale-timer {
+    width: 100%;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+}
+
+.nav__sale-timer-text {
+    font-size: 12px;
+    line-height: 20x;
+}
+
+.countdown {
+    gap: 4px;
+}
+
+.countdown__item {
+    display: flex;
+    flex-direction: column;
+    height: 24px;
+}
+
+.countdown__item--days {
+    width: 28px;
+}
+
+.countdown__item--hours {
+    width: 34px;
+}
+
+.countdown__item--minutes {
+    width: 22px;
+}
+
+.countdown__item--seconds {
+    width: 22px;
+}
+
+.countdown__duration {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.countdown__label {
+    font-size: 9px;
+    line-height: 9px;
+}
+
+.countdown__separator {
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.nav__menu {
+    width: 100%;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px 0 12px;
+}
+
+.nav__menu-icon {
+    gap: 8px;
+}
+
+.nav__menu-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.nav__menu-list {
+    display: flex;
+    gap: 22px;
+    color: #FFFFFF;
+    width: 227px;
+    height: 19px;
+}
+
+.nav__menu-search,
+.nav__menu-bag {
+    display: flex;
+    gap: 9px;
+}
+
+.nav__menu-text {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.nav__menu-logo {
+    position: absolute;
+    top: 76px;
+    left: 702.5px;
+}
+
+.header__title {
+    width: 822px;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    top: 307px;
+    left: 301px;
+}
+
+.header__title-text {
+    font-family: 'Lora', sans-serif;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF
+}
