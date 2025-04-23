@@ -1173,7 +1173,7 @@
         transform: translateX(0px);
         margin-top: 80px;
     }
-    
+
     .place-list {
         width: fit-content;
         height: 100%;
@@ -1183,7 +1183,7 @@
         left: 0px;
         transform: translateX(-50%);
     }
-    
+
     .place-list__item {
         width: 319px;
         height: 100%;
@@ -1191,13 +1191,13 @@
         border-radius: 16px;
         position: relative;
     }
-    
+
     .place-list__item-image {
         height: 100%;
         width: 100%;
         border-radius: 16px;
     }
-    
+
     .place-list__item-name {
         position: absolute;
         top: 429px;
@@ -1206,13 +1206,13 @@
         flex-direction: column;
         gap: 24px;
     }
-    
+
     .place-list__item-name p {
         font-size: 28px;
         line-height: 44px;
         color: #FFFFFF;
     }
-    
+
     .place-list__item-name a {
         font-size: 14px;
         line-height: 14px;
@@ -1220,9 +1220,68 @@
         text-decoration: underline;
         cursor: pointer;
     }
-    
+
     .section-sixth__action {
         display: none;
     }
-    
+
+
+    .footer {
+        margin-top: 40px;
+        width: 100%;
+        height: 900px;
+        padding: 40px 16px;
+        background-color: #F4F0EA;
+        border-radius: 16px 16px 0px 0px;
+        position: relative;
+    }
+
+    .footer__subscribe {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+
+    .footer__menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width:100%;
+        height: 172px;
+        position: absolute;
+        top: 360px;
+        left: 16px;
+        gap: 40px;
+    }
+
+    .footer__sections {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        position: absolute;
+        top: 822px;
+        left: 16px;
+        gap: 16px;
+    }
+
+    .footer__legal {
+        display: flex;
+        gap: 13px;
+    }
+
+    .footer__legal p {
+        font-size: 12px;
+        line-height: 20px;
+        color: #1F1F1F;
+    }
+
+    .footer__legal a {
+        font-size: 12px;
+        line-height: 20px;
+        color: #797E7E;
+    }
+
 }
