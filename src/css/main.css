@@ -58,7 +58,7 @@
 
 .nav__sale-timer-text {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 20x;
 }
 
 .countdown {
@@ -108,7 +108,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 12px;
+    padding: 0 12px 0 12px;
 }
 
 .nav__menu-icon {
@@ -122,18 +122,28 @@
 }
 
 .nav__menu-list {
-    gap: 16px;
-    color: #FFFFFF
+    display: flex;
+    gap: 22px;
+    color: #FFFFFF;
+    width: 227px;
+    height: 19px;
 }
 
 .nav__menu-search,
 .nav__menu-bag {
-    gap: 8px;
+    display: flex;
+    gap: 9px;
 }
 
 .nav__menu-text {
     font-size: 14px;
     line-height: 22px;
+}
+
+.nav__menu-logo {
+    position: absolute;
+    top: 76px;
+    left: 702.5px;
 }
 
 .header__title {
@@ -146,6 +156,7 @@
 }
 
 .header__title-text {
+    font-family: 'Lora', sans-serif;
     font-size: 64px;
     line-height: 74px;
     color: #FFFFFF
