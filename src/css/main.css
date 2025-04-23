@@ -486,10 +486,34 @@
     height: 100%;
     overflow: hidden;
     border-radius: 16px;
+    position: relative;
 }
 
 .place-list__item-image {
     height: 100%;
+}
+
+.place-list__item-name {
+    position: absolute;
+    top: 676px;
+    left: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.place-list__item-name p {
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.place-list__item-name a {
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .section-sixth__action {
