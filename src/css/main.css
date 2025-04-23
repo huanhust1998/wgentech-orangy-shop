@@ -313,6 +313,11 @@
     width: 684px;
 }
 
+.section-fourth__product {
+    display: flex;
+    gap: 10px;
+}
+
 .product-item {
     width: 338px;
     height: 374px;
@@ -369,6 +374,10 @@
     width: 8px;
     height: 8px;
     border-radius: 10px;
+}
+
+.product-item__info-mobile {
+    display: none;
 }
 
 .product-color {
@@ -820,7 +829,7 @@
         padding: 0px 5px;
         display: flex;
         flex-direction: column;
-        gap: 80px;
+        gap: 40px;
     }
 
     .section-first {
@@ -904,18 +913,16 @@
 
     .section-second__content2 {
         background-color: #F4F0EA;
-        padding-left: 48.5px;
-        padding-right: 42.5px;
-        padding-bottom: 78px;
+        padding: 20px 10px 20px 18px;
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: end;
-        gap: 40px;
+        gap: 16px;
     }
 
     .section-second__title {
-        font-family: 'Lora', sans-serif;
+        font-family: 'Lato', sans-serif;
         font-size: 32px;
         line-height: 42px;
     }
@@ -934,5 +941,153 @@
     .section-second__subcontent-description {
         font-size: 14px;
         line-height: 22px;
+    }
+
+    .section-third {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding: 0px 5px;
+    }
+    
+    .section-third__note {
+        width: 100%;
+    }
+    
+    .section-third__note p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .section-third__description {
+        font-size: 28px;
+        line-height: 44px;
+    }
+    
+
+
+
+    .section-fourth {
+        width: 100%;
+        height: 964px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .section-fourth__img {
+        width: 100%;
+        height: 422px;
+    }
+    
+    .product-item {
+        width: 182px;
+        height: 247px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        background-color: #FFFFFF;
+    
+    }
+    
+    .product-item__main {
+        width: 100%;
+        height: 183px;
+        border-radius: 10px;
+        background-color: #F0F2EF;
+        padding: 8px;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+    .product-item__action {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .product-item__action-menu {
+        display: flex;
+        gap: 8px;
+    }
+    
+    .product-item__action-favourite {
+        cursor: pointer;
+    }
+    
+    .button-action {
+        background: #FFFFFF;
+        padding: 6px;
+        border-radius: 4px;
+        font-size: 9px;
+    }
+    
+    .product-item__img {
+        width: 168px;
+        height: 168px;
+        position: absolute;
+        top: 0px;
+        border-radius: 10px;
+    }
+    
+    .product-color{
+        display: none;
+    }
+    
+    .product-item__info-desktop {
+        display: none !important;
+    }
+    
+    .product-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .product-item__info {
+        width: 138px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .product-item__info-name{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .product-item__info-price {
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .product-item__info-price p {
+        color: #1F1F1F;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .product-item__info-price span {
+        color: #797E7E;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .product-item__info-promotion {
+        width: 36px;
+        height: 20px;
+        border-radius: 4px;
+        background-color: #E23333;
+        padding: 0px 4px;
+        color: #FFFFFF;
+        font-size: 12px;
+        line-height: 20px;
     }
 }
